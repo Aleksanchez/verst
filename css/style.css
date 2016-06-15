@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9f5;
+}
+
+/*.header_img {
+    margin: 0 auto;
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/headerimg.jpg);
+    background-size: cover;
+}*/
+
+body {
+  margin: 0;
+}
+
+.header_box {
+    position: relative;
+    margin: 0 auto;
+    height: 620px;
+    width: 100%;
+    background-image: url(../img/headerimg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header_svg {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+    bottom: -4px;
+    
+}
+
+.traingle {
+  fill: #f8f9f5;
+}
+
+/*svg {
+    margin-top: -170px;
+}*/
